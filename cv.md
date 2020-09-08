@@ -1,6 +1,7 @@
 1. 	Vladimir Panov
 2. 	Phone: 89134563881
 	Email: vladimirpanov86@gmail.com
+	Telegram: https://t.me/smoothsen
 3. 	Constantly developing my skills in IT, 
 	really interested in being involved in finding new solutions,	
 	I am not afraid of difficulties and do my best in solving the tasks and challenges that have arisen.		
