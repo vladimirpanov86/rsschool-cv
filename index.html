@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vladimir Panov - rsschool-cv</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1><a href="https://vladimirpanov86.github.io/rsschool-cv">rsschool-cv</a></h1>
+        <hr />
+      </header>
+      <h2>Vladimir Panov</h2>
+      <hr />
+      <img
+        src="https://avatars.githubusercontent.com/vladimirpanov86"
+        alt="avatar"
+      />
+      <h2>Contacts</h2>
+      <hr />
+      <ul>
+        <li><a href="mailto:vladimirpanov86@gmail.com">vladimirpanov86@gmail.com</a></li>
+        <li>8-913-456-3881</li>
+        <li><a href="https://t.me/smoothsen">Telegram</a></li>
+      </ul>
+      <br />
+      <h2>Summary</h2>
+      <hr />
+      <ul>
+        <li>Constantly developing my skills in IT</li>
+        <li>Really interested in being involved in finding new solutions</li>
+        <li>I am not afraid of difficulties and do my best in solving the tasks and challenges that have arisen</li>
+        <li>During this course, I want to improve my frontend skills</li>
+      </ul>
+      <br />
+      <h2>Skills</h2>
+      <hr />
+      <p>React, HTML5/CSS, basic level of nodejs, GIT.</p>
+      <br />
+      <br />
+      <h2>Code Examples</h2>
+      <hr />
+      <pre>
+        <code>
+export default class Request {
+  _apiBase = `https://someurl/api/v0.1/bounty`
+
+  async getResource(url){
+    const res = await fetch(`${this._apiBase}${url}`);
+
+    if(!res.ok) {
+      throw new Error(`Could not fetch ${url}, received ${res.status}`)
+    }
+
+    return await res.json();
+  };
+
+  getDepartment(period) {
+    return this.getResource(`/FetchGroupDeptsRequest?period=${period}`);
+  }
+
+  getUsersFromDep(period, element) {
+    return this.getResource(`/getUsersFromDep?period=${period}&group_dept=${element}`);
+  }
+
+  getReportByDep(period, element) {
+    return this.getResource(`/getReportByDep?period=${period}&dep=${element}`);
+  }
+} 
+        </code>
+      </pre>
+      <h2>Education</h2>
+      <hr />
+      <p>
+        <b>Siberian State University of Telecommunications and Information Sciences</b><br />
+          Engineer, Electronic computers, complexes, systems and networks.<br /><br />
+          <b>Online:</b>
+          <ul>
+            <li><a href="https://www.udemy.com/share/10208oBksZd19XRHw=/">Полный курс по JavaScript + React</a></li>
+            <li><a href="https://www.udemy.com/share/101XKiBksZd19XRHw=/">React + Redux - Профессиональная Разработка</a></li>
+          </ul>         
+      </p>
+      <br />
+      <h2>English</h2>
+      <hr />
+      <p>
+        Pre-Intermediate
+      </p>
+      <br />
+    </article>
+  </body>
+</html>
