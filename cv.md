@@ -18,7 +18,7 @@ HTML5/CSS, React, TypeScript, Redux, NodeJs, GIT, webpack, storybook, jest, loki
 
 ## 5. Example of my code
 
-```typescript
+```javascript
 export const SideBar = memo(({ className }: SidebarProps) => {
   const [collapsed, setCollapsed] = useState(false);
 
